@@ -1,0 +1,74 @@
+[
+    {
+      "id": 1,
+      "name": "Akita",
+      "clicked": false,
+      "image": "https://www.pedigreedatabase.com/dogbreeds/akita.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Fuzzy",
+      "clicked": false,
+      "image": "https://www.pedigreedatabase.com/pictures/2635569-781392.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Shepherd",
+      "clicked": false,
+      "image": "https://www.pedigreedatabase.com/dogbreeds/english_shepherd.jpg"
+    },
+    {
+      "id": 4,
+      "name": "CattleDog",
+      "clicked": false,
+      "image": "https://www.pedigreedatabase.com/dogbreeds/australian_cattle_dog.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Tazi",
+      "clicked": false,
+      "image": "https://www.pedigreedatabase.com/dogbreeds/turkish_tazi.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Mudi",
+      "clicked": false,
+      "image": "https://www.pedigreedatabase.com/dogbreeds/mudi.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Kangal",
+      "clicked": false,
+      "image": "https://www.pedigreedatabase.com/dogbreeds/kangal.jpg"
+    },
+    {
+      "id": 8,
+      "name": "BlackWidow",
+      "clicked": false,
+      "image": "https://static.comicvine.com/uploads/original/6/64109/1286189-black_widow.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Leopard Dog",
+      "clicked": false,
+      "image": "https://www.pedigreedatabase.com/dogbreeds/catahoula_leopard_dog.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Puli",
+      "clicked": false,
+      "image": "https://www.pedigreedatabase.com/dogbreeds/puli.jpg"
+    },
+    {
+      "id": 11,
+      "name": "SheepDog",
+      "clicked": false,
+      "image": "https://www.pedigreedatabase.com/dogbreeds/welsh_sheepdog.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Briard",
+      "clicked": false,
+      "image": "https://www.pedigreedatabase.com/dogbreeds/briard.jpg"
+    }
+  ]
