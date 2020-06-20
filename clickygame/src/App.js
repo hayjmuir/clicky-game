@@ -10,7 +10,7 @@ class App extends Component {
     dogs,
     score: 0,
     topScore: 0,
-    message: "Click on a character to earn points, but don't select a character more than once!",
+    message: "Click on a dog to earn points, but don't select a dog more than once!",
   };
 
 
