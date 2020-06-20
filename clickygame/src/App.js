@@ -1,13 +1,13 @@
 import React, { Component } from "react";
-import FriendCard from "./components/FriendCard";
+import FriendCard from "./components/DogCard";
 import Nav from "./components/Nav";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
-import friends from "./friends.json";
+import dogs from "./chars.json";
 
 class App extends Component {
 	state = {
-    friends,
+    dogs,
     score: 0,
     topScore: 0,
     message: "Click on a character to earn points, but don't select a character more than once!",
@@ -16,7 +16,7 @@ class App extends Component {
 
   handleClick = (id, clicked) => {
 
-		const imageOrder = this.state.friends;
+		const imageOrder = this.state.dogs;
 
 		if (clicked) {
 			imageOrder.forEach((image, index) => {
@@ -24,7 +24,7 @@ class App extends Component {
 			});
 			return this.setState({
 				image: imageOrder.sort(() => Math.random() - 0.5),
-				message: "bummer! That was treacherously wrong!",
+				message: "bummer! That was wrong!",
 				score: 0
 			})
 		}
@@ -49,7 +49,7 @@ class App extends Component {
 	};
 
 
-  // Map over this.state.friends and render a FriendCard component for each friend object
+  // Map over this.state.dogs and render a DogCard component for each dog object
   render() {
     return (
 			<div>
@@ -66,13 +66,13 @@ class App extends Component {
  					</div> 
 					</Title>
 				
-        {this.state.friends.map(friends => (
+        {this.state.dogs.map(dogs => (
           <FriendCard
-            id={friends.id}
-            key={friends.id}
-            name={friends.name}
-						image={friends.image}
-						clicked={friends.clicked}
+            id={dogs.id}
+            key={dogs.id}
+            name={dogs.name}
+						image={dogs.image}
+						clicked={dogs.clicked}
 						handleClick={this.handleClick}
             />
         ))}
