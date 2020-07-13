@@ -14,3 +14,6 @@
    
  ### What can this app do?
   This game was designed with react to allow users to play a matching game
+
+
+![game](https://github.com/hayjmuir/clicky-game/blob/master/images/dog60.gif)
